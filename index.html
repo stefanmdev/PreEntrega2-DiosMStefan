@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio CoderHouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monserrat:400,700" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" type="text/css">
+  </head>
+  <body>
+    <!--? INICIO DE NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark py-4 bg-my-primary fixed-top">
+      <div class="container px-5">
+        <a class="navbar-brand" href="#">Portfolio CoderHouse</a>
+        <button class="navbar-toggler bg-my-secondary py-3 px-3 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          MENU <i class="fa-solid fa-mug-hot"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link my-list-item active" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link my-list-item" href="#gallery">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link my-list-item " href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--! FIN DE NAVBAR -->
+    <main>
+
+      <!--? INICIO PORTADA -->
+      <div id="main-container" class="bg-my-secondary d-flex flex-column align-items-center justify-content-center">
+        <img src="./assets/img/avataaars.svg" alt="Avatar" class="main-image">
+        <h1> Portfolio CoderHouse</h1>
+        <div class="d-flex align-items-center">
+          <div class="line bg-light"></div>
+          <i class="fa-solid fa-star h3 mx-3"></i>
+          <div class="line bg-light"></div>
+        </div>
+        <P>Fullstack developer</P>
+      </div>
+      <!--! FIN PORTADA -->
+      <!--? INICIO GALERÍA DE IMAGENES -->
+      <section>
+        <h1 class="text-center mt-5" id="gallery" > GALERÍA </h1>
+        <div class="d-flex align-items-center justify-content-center">
+        <div class="line bg-my-primary"></div>
+        <i class="fa-solid fa-star h3 mx-3"></i>
+        <div class="line bg-my-primary"></div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img src="./assets/img/cabin.png" class="img-fluid my-3 rounded" alt="Cabañita">
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img src="./assets/img/cake.png" class="img-fluid my-3 rounded" alt="Cabañita">
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img src="./assets/img/circus.png" class="img-fluid my-3 rounded" alt="Cabañita">
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img src="./assets/img/game.png" class="img-fluid my-3 rounded" alt="Cabañita">
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img src="./assets/img/safe.png" class="img-fluid my-3 rounded" alt="Cabañita">
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img src="./assets/img/submarine.png" class="img-fluid my-3 rounded" alt="Cabañita">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! FIN GALERÍA DE IMAGENES -->
+    <section id="about">
+      <h1 class="text-center mt-5 text-light"> ABOUT </h1>
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="line bg-light"></div>
+        <i class="fa-solid fa-star h3 mx-3 text-light"></i>
+        <div class="line bg-light"></div>
+      </div>
+      <div class="container">
+        <div class="row d-flex justify-content-center my-5 text-light text-block">
+          <div class="col-12 col-md-4 col-lg-3">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</div>
+          <div class="col-12 col-md-4 col-lg-3">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</div>
+        </div>
+          <div class="col-12 d-flex justify-content-center mt-3">
+            <button class="btn btn-outline-light p-3"><a href="/html/404.html"><i class="fa-solid fa-download"></i> Free download</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section id="contact container">
+        <h1 class="text-center mt-5" id="contact" > CONTACT </h1>
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="line bg-my-primary"></div>
+        <i class="fa-solid fa-star h3 mx-3"></i>
+        <div class="line bg-my-primary"></div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-5">
+          <form>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control contact-borders" id="contact-fullname" placeholder="Pepito" required minlength="3" maxlength="40">
+              <label for="contact-fullname">Fullname</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control contact-borders" id="contact-email" placeholder="name@example.com" required maxlength="40">
+              <label for="contact-email">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input type="tel" class="form-control contact-borders" id="contact-phone" placeholder="+549351xxxxxxx" required maxlength="12">
+              <label for="contact-phone">Phone number</label>
+            </div>
+            <div class="form-floating">
+              <textarea type="text" class="form-control contact-borders mt-2" id="contact-message" placeholder="message" required maxlength="300"></textarea>
+              <label for="contact-message">Message</label>
+            </div>
+            <button type="submit" class="btn bg-my-secondary text-light mt-3"> Send </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="bg-dark">
+    </div>
+  </main>
+    <!--? FOOTER -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Location</h4>
+            <p class="lead mb-0">" 2215 John Daniel Drive "
+            <br>
+            " Clark, MO 65243"
+            </p>
+          </div>
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Around the Web</h4>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fa-brands fa-facebook"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fa-brands fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="text-uppercase mb-4">About Freelancer</h4>
+            <p class="lead mb-0">
+                Freelance is a free to use, MIT licensed Bootstrap theme created by
+                <a href="http://startbootstrap.com">Start Bootstrap</a>
+                .
+            </p>
+          </div>
+        </div>
+    </footer>
+    <!--! FIN DE FOOTER -->
+    <!-- Copyright Section -->
+    <div class="copyright py-4 text-center text-white bg-dark">
+      <div class="container"><small>Copyright © Your Website 2023</small></div>
+    </div>
+    <script src="https://kit.fontawesome.com/6c592b82c6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
